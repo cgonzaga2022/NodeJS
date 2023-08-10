@@ -1,0 +1,32 @@
+{
+  "name": "node_js",
+  "version": "1.0.0",
+  "description": "Node.js - Os primeiros testes com JavaScripts",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test2": "cls && echo 'Hello Script'",
+    "dev": "nodemon fundamentos/hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgonzaga2022/NodeJS.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "javascripts"
+  ],
+  "author": "MSO Carlos Gonzaga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cgonzaga2022/NodeJS/issues"
+  },
+  "homepage": "https://github.com/cgonzaga2022/NodeJS#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
